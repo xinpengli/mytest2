@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="NewTestng">
+        <classes>
+            <class name="/mytest/src/Testng/NewTestng.java" />
+        </classes>
+    </test>
+</suite>
