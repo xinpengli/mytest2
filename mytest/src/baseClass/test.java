@@ -20,6 +20,7 @@ public static void main(String[] args) {
             System.out.println(url.getPath());*/
 
            URL url = test.class.getClassLoader().getResource("demo.yaml");
+           //
             System.out.println(url);
             if (url != null) {
                 //获取test.yaml文件中的配置数据，然后转换为obj，
