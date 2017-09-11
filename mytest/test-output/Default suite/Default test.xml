@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="FRL0AQPX2TNBMOW" name="Testng.NewTestng" tests="1" failures="0" timestamp="8 Sep 2017 03:32:57 GMT" time="23.232" errors="0">
+  <testcase name="f" time="23.09" classname="Testng.NewTestng"/>
+</testsuite>

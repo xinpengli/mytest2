@@ -1,0 +1,16 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23232" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23232" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:56Z">
+      <class name="Testng.NewTestng">
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="48" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:33Z">
+        </test-method>
+        <test-method status="PASS" signature="f()" name="f" duration-ms="23090" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:56Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
