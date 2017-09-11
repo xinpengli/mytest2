@@ -20,14 +20,14 @@ public static void main(String[] args) {
             System.out.println(url.getPath());*/
 
            URL url = test.class.getClassLoader().getResource("demo.yaml");
-           //
+           
             System.out.println(url);
             if (url != null) {
                 //获取test.yaml文件中的配置数据，然后转换为obj，
-            	
+            	//
              //   Object obj =yaml.load(new FileInputStream(url.getFile()));
                // System.out.println(obj);
-            	//
+            	//adafdaf
                 //也可以将值转换为Map
                 HashMap<String, HashMap<String, String>> map =( HashMap<String, HashMap<String, String>>)yaml.load(new FileInputStream(url.getFile()));
                 System.out.println(map.get("baidu_text").get("Type"));
