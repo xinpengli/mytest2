@@ -10,7 +10,7 @@ import org.yaml.snakeyaml.Yaml;
 
 public class test {
 public static void main(String[] args) {
-        
+        //dddd
         try {
             Yaml yaml = new Yaml();
             /* URL     url = test.class.getClassLoader().getResource("test.yaml");
