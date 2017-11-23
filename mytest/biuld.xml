@@ -9,7 +9,7 @@
 <property name="testng.dir" value="${base.dir}/src"/> <!--调用的testng用例执行xml文件，这里是文件名-->
  <property name="testdir" location="test" /> <!--设置编译的2进制文件目录-->
 
- 
+<!--更改测试gihub-->
 <taskdef resource="testngtasks" classpath="${lib.dir}/testng.jar"/>
 	                                   
 <target name="clean"> <!--清除之前的2进制文件-->
