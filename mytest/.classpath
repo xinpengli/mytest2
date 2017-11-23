@@ -16,5 +16,7 @@
 	<classpathentry kind="lib" path="F:/TianYuan/SeLEnium/jar/poi3.8/poi_3.8_itmop.com/poi-3.8/poi-scratchpad-3.8-20120326.jar"/>
 	<classpathentry kind="lib" path="F:/TianYuan/SeLEnium/jar/poi3.8/poi_3.8_itmop.com/poi-3.8/stax-api-1.0.1.jar"/>
 	<classpathentry kind="lib" path="F:/TianYuan/SeLEnium/jar/poi3.8/poi_3.8_itmop.com/poi-3.8/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/TianYuan/SeLEnium/jar/reportStyls/testng-xslt-1.1.2-master/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="F:/TianYuan/SeLEnium/jar/ant/apache-ant-1.9.9-bin.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

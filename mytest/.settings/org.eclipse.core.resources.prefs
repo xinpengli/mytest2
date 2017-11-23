@@ -1,6 +1,10 @@
-#Fri Sep 08 16:12:38 CST 2017
+#Wed Sep 13 13:45:47 CST 2017
 eclipse.preferences.version=1
 encoding//src/Confige.properties=UTF-8
+encoding//src/Testng/NewTestng.java=UTF-8
 encoding//src/baseClass/test.java=UTF-8
 encoding//src/log4j.properties=UTF-8
+encoding//test-output/index.html=UTF-8
+encoding//test-output/testng-results.xml=UTF-8
+encoding//test-output/testng-results.xsl=UTF-8
 encoding/<project>=UTF-8

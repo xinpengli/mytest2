@@ -1,31 +1,37 @@
 package Testng;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.seleniumhq.jetty7.util.log.Log;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
-import baseClass.ExcelReader;
+
+import Testng.ExcelReader;
 import baseClass.PageEleManage;
 
 import java.util.Map;
 public class NewTestng   {
  
-
+	 private static final Logger logger = Logger.getLogger(NewTestng.class);
 	
+
 @Test
   public void f() {
 	System.setProperty("webdriver.firefox.bin", "D:/浏览器/firefox.exe");
 	 ExcelReader data = new ExcelReader("F:\\TianYuan\\SeLEnium\\Selenium\\Seleniumday-1-2\\Selenium+java\\day01\\testng.xlsx","Sheet1");
+	 logger.error("open IE");
 	PageEleManage page= new PageEleManage();
 	 // page.driver.get("http://www.baidu.com");
 	  //百度文本框输入name列第一行数据，李新鹏
 	  page.getElement("baidu_text").sendKeys(data.getCellData(1,"name"));
-	  Reporter.log("成功登陆");
+	  logger.info("input succssful");
+	  Reporter.log("f() succssful!");
 	  
 	//File filead= new File("C:\\Program Files\\Internet Explorer\\IEDriverServer_x64.exe");
 	//System.setProperty("webdriver.ie.driver", filead.getAbsolutePath());
@@ -36,7 +42,9 @@ public class NewTestng   {
   
   //my_driver.close();
 	 page.driver.close();
-  }
+
+}
+
   @BeforeMethod
   public void beforeMethod() {
 	  

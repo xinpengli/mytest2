@@ -1,13 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Default suite]" parallel="false">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="NewTestng(failed)">
     <classes>
       <class name="Testng.NewTestng">
         <methods>
           <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
           <include name="f"/>
         </methods>
-      </class>
+      </class> <!-- Testng.NewTestng -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- NewTestng(failed) -->
+</suite> <!-- Failed suite [Suite] -->

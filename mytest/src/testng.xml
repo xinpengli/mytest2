@@ -2,7 +2,12 @@
 <suite name="Suite" parallel="false">
     <test name="NewTestng">
         <classes>
-            <class name="/mytest/src/Testng/NewTestng.java" />
+            <class name="Testng.NewTestng" />
+        </classes>
+    </test>
+    <test name="NewTestng1">
+        <classes>
+            <class name="Testng.NewTestng" />
         </classes>
     </test>
 </suite>

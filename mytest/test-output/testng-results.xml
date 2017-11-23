@@ -1,16 +1,170 @@
-<testng-results>
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[f() succssful!]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23232" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:56Z">
+  <suite name="Suite" duration-ms="113623" started-at="2017-11-23T07:23:30Z" finished-at="2017-11-23T07:25:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23232" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:56Z">
+    <test name="NewTestng" duration-ms="84947" started-at="2017-11-23T07:23:30Z" finished-at="2017-11-23T07:24:55Z">
       <class name="Testng.NewTestng">
-        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="48" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:33Z">
-        </test-method>
-        <test-method status="PASS" signature="f()" name="f" duration-ms="23090" started-at="2017-09-08T11:32:33Z" finished-at="2017-09-08T11:32:56Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testng.NewTestng@2cd5a3]" name="beforeMethod" is-config="true" duration-ms="23" started-at="2017-11-23T15:23:30Z" finished-at="2017-11-23T15:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:Testng.NewTestng@2cd5a3]" name="f" duration-ms="84889" started-at="2017-11-23T15:23:30Z" finished-at="2017-11-23T15:24:55Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(D:\ä¯ÀÀÆ÷\firefox.exe) on port 7055; process output follows: 
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-local
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\ADMINI~1\AppData\Local\Temp\anonymous3182489767293084571webdriver-profile\extensions\webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi-utils: Opening database
+*** LOG addons.xpi-utils: Creating database schema
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi: New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-user
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi: New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-global
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG addons.xpi-utils: Database closed
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-local
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\ADMINI~1\AppData\Local\Temp\anonymous3182489767293084571webdriver-profile\extensions\webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'FRL0AQPX2TNBMOW', ip: '10.238.96.121', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_13'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(D:\ä¯ÀÀÆ÷\firefox.exe) on port 7055; process output follows: 
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-local
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\ADMINI~1\AppData\Local\Temp\anonymous3182489767293084571webdriver-profile\extensions\webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi-utils: Opening database
+*** LOG addons.xpi-utils: Creating database schema
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi: New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-user
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi: New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-global
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG addons.xpi-utils: Database closed
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-local
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\ADMINI~1\AppData\Local\Temp\anonymous3182489767293084571webdriver-profile\extensions\webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'FRL0AQPX2TNBMOW', ip: '10.238.96.121', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_13'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at baseClass.PageEleManage.<init>(PageEleManage.java:33)
+	at Testng.NewTestng.f(NewTestng.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-local
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\ADMINI~1\AppData\Local\Temp\anonymous3182489767293084571webdriver-profile\extensions\webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi-utils: Opening database
+*** LOG addons.xpi-utils: Creating database schema
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi: New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-user
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi: New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-global
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG addons.xpi-utils: Database closed
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-local
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: C:\Users\ADMINI~1\AppData\Local\Temp\anonymous3182489767293084571webdriver-profile\extensions\webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Testng.NewTestng -->
+    </test> <!-- NewTestng -->
+    <test name="NewTestng1" duration-ms="28434" started-at="2017-11-23T07:24:55Z" finished-at="2017-11-23T07:25:24Z">
+      <class name="Testng.NewTestng">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testng.NewTestng@80cf99]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-23T15:24:55Z" finished-at="2017-11-23T15:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Testng.NewTestng@80cf99]" name="f" duration-ms="28433" started-at="2017-11-23T15:24:55Z" finished-at="2017-11-23T15:25:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f() succssful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Testng.NewTestng -->
+    </test> <!-- NewTestng1 -->
+  </suite> <!-- Suite -->
 </testng-results>
